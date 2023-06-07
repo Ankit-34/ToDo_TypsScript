@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: block;
+    width: 100%;
+}
+
+.dp_outer{
+    display: flex;
+    margin: 45px auto;
+    font-size: 15px;
+    font-weight: 600;
+    align-items: center;
+    width: 60%;
+    /* margin: 10px; */
+    transform: translateX(-15%);
+}
+
+.datepicker{
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    float: left;
+    position: relative;
+    transform: translateX(5%);
+    font-weight: 600;
+    letter-spacing: 1px;
+    width: 70%;
+}
+.datepicker:hover{
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid black !important;
+}
+
+.add-btn{
+    float: right;
+    width: 8%;
+    min-width: 110px;
+    letter-spacing: 1px;
+    background-color: black;
+    margin: 10px auto;
+    transform: translateX(20rem);
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.add-btn:hover, .clr-filter-btn:hover{
+    color: white !important;
+    border: none;
+    outline: none;
+    text-shadow: 1px .2px .2px white;
+}
+
+.table{
+    margin: 10px auto;
+    padding: 8px;
+    width: 90%;
+    display: block;
+}
+
+.ant-table-thead tr th{
+    background-color: rgb(22, 22, 22) !important;
+    color: white !important;
+    font-size: 15px;
+}
+
+.ant-table-thead tr th:nth-child(1){
+    width: 50%;
+}
+.ant-table-thead tr th:nth-child(2){
+    width: 30%;
+}
+
+.ant-table-column-sorter{
+    font-size: 5px;
+    padding: 2px;
+    color: white;
+    background-color: white;
+    margin-left: -5px;
+}
